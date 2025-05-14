@@ -17,7 +17,7 @@ from yahooquery import Ticker
 load_dotenv()
 
 # Azure OpenAIの設定
-AZURE_OPENAI_ENDPOINT = "https://railo-mal0y2to-eastus2.openai.azure.com"
+AZURE_OPENAI_ENDPOINT = "https:/m"
 AZURE_OPENAI_DEPLOYMENT = "gpt-4.1-mini"
 AZURE_OPENAI_API_VERSION = "2025-01-01-preview"
 
