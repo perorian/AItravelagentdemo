@@ -1,6 +1,6 @@
 tasks:
-  - init: pip install -r requirements.txt
-  - command: jupyter lab --ip=0.0.0.0 --port=8888 --no-browser
+  - init: conda env create -f travel-planner-agent-demo/environment.yml && conda activate travel-agent-demo
+  - command: conda activate travel-agent-demo && streamlit run travel-planner-agent-demo/agents/travel_planner_visualizer.py
 ports:
-  - port: 8888
+  - port: 8501
     onOpen: open-preview
