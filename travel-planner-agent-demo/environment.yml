@@ -1,0 +1,11 @@
+name: travel-agent-demo
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - streamlit
+    - autogen
+    - openai
+    - yahooquery
